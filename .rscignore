@@ -1,0 +1,7 @@
+.git
+.github
+.codex-tmp
+tests
+*.Rproj
+.Rhistory
+.RData

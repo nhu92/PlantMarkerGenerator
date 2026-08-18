@@ -1,0 +1,22 @@
+Package: ChloroMarker
+Type: Shiny
+Title: Chloroplast Diagnostic Marker and Assay Designer
+Version: 2.0.0
+Authors@R: person("Nan", "Hu", role = c("aut", "cre"), email = "maintainer@example.org")
+Description: Parses annotated chloroplast genomes, ranks diagnostic genes and
+    intergenic regions, designs degenerate primers, predicts gel and PCR-RFLP
+    profiles, produces distance matrices, and recommends escalation when
+    chloroplast markers are insufficient.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    ape,
+    Biostrings,
+    bslib,
+    DECIPHER,
+    digest,
+    DT,
+    ggplot2,
+    shiny
+Suggests:
+    rsconnect
