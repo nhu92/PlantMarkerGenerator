@@ -1,0 +1,27 @@
+{
+  "annotator_priority": {
+    "Chloe, blatX; merged": 3,
+    "Chloe": 2,
+    "blatX": 1
+  },
+  "valid_start_codons": ["ATG", "GTG", "TTG"],
+  "valid_stop_codons": ["TAA", "TAG", "TGA"],
+  "rna_edit_start_genes": ["ndhD", "psbL", "rpl2"],
+  "rna_edit_stop_genes": ["petD"],
+  "editable_stop_codons": ["CAA", "CAG", "CGA"],
+  "trans_spliced_genes": ["rps12"],
+  "maximum_stop_extension_codons": 20,
+  "maximum_length_difference_aa": 2,
+  "minimum_cds_aa": 10,
+  "minimum_cds_fraction_of_median": 0.5,
+  "trna_minimum_nt": 55,
+  "trna_maximum_nt": 120,
+  "trna_expected_nt": 75,
+  "expected_rrna_lengths": {
+    "rrn4.5": 103,
+    "rrn5": 121,
+    "rrn16": 1491,
+    "rrn23": 2810
+  }
+}
+
